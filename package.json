@@ -1,0 +1,29 @@
+{
+  "name": "gzip-uncompressed-size",
+  "version": "1.0.0",
+  "description": "Determine the estimated uncompressed size from a GZIP file (uses ISIZE)",
+  "scripts": {
+    "lint": "eslint *.js tests",
+    "test": "npm run lint && node ./tests/run.js"
+  },
+  "license": "MIT",
+  "repository": "jviotti/node-gzip-uncompressed-size",
+  "author": {
+    "name": "Juan Cruz Viotti",
+    "email": "jviottidc@gmail.com",
+    "url": "https://github.com/jviotti"
+  },
+  "keywords": [
+    "gzip",
+    "uncompressed",
+    "isize",
+    "size"
+  ],
+  "dependencies": {
+    "async": "^2.0.0",
+    "bufferpack": "0.0.6"
+  },
+  "devDependencies": {
+    "eslint": "^3.1.1"
+  }
+}
